@@ -9,8 +9,11 @@
 - results/mymodel.pt 我自己本地跑出来的模型
 
 ### 评价标准：
+
 两个指标：MAE和MAPE
+
 评分公式如下：
-\[
+
+$$
 \text{score} = (1 - 4 \cdot \mathrm{MAPE}) \times 40 + \left(1 - \frac{\sqrt{\mathrm{MAE}+1}}{3}\right) \times 60
-\]
+$$
