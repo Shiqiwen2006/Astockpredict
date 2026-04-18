@@ -17,3 +17,5 @@
 $$
 \text{score} = (1 - 4 \cdot \mathrm{MAPE}) \times 40 + \left(1 - \frac{\sqrt{\mathrm{MAE}+1}}{3}\right) \times 60
 $$
+
+我用Claude写过一遍，现在的平台测试MAPE是0.0276，MAE是0.7675
